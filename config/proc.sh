@@ -202,9 +202,6 @@ function sanity_check() {
   fi
 }
 
-# force the production enviroment
-export RAILS_ENV=production
-
 config_dir="$1"            # config dir
 config_id="$2"             # config id
 verbose="$3"               # verbose mode
